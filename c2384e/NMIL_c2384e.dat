@@ -1,0 +1,16 @@
+param i_n :=
+BelowNM 0.0
+NMtoIL 100000000.0
+AboveIL 1000000000.0
+;
+param i_ttn :=
+CHP BelowNM 0
+CHP NMtoIL 0
+CHP AboveIL 0
+UTIL1 BelowNM 0
+UTIL1 NMtoIL 0
+UTIL1 AboveIL 0
+BOILER BelowNM 0
+BOILER NMtoIL 0
+BOILER AboveIL 0
+;

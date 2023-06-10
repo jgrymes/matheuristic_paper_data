@@ -1,0 +1,13 @@
+set M = 1 2 3 4 5 6 7 8 9 10 11 12 ;
+set M_lb = 1 2 3 4 5 6 7 8 9 10 11 12 ;
+param CapCostSegCount = 1;
+param FuelBinCount = 1;
+param DemandBinCount = 1;
+param DemandMonthsBinCount = 1;
+param BattLevelCount = 1;
+param n_tss = 1.0;
+param ntsc = 8760;
+param NumRatchets = 30;
+param TESs = 2;
+param Storage = 3;
+param location = 3;
