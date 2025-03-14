@@ -1,0 +1,9 @@
+param cfbrA :=
+UTIL1 1R 1 1
+UTIL1 1W 1 1
+UTIL1 1X 1 1
+UTIL1 1S 1 1
+;
+param cfbrB :=
+;
+;

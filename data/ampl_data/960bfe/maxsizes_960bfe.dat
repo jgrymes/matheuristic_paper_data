@@ -1,0 +1,26 @@
+param bbar_sigma :=
+PV1 1000000000.0
+PV1NM 1000000000.0
+WIND 1000000000.0
+WINDNM 1000000000.0
+UTIL1 12000000
+;
+param wubar_bkW := 1 0;
+param wbar_bkW := 1 1000000;
+param wbarbkW := 1 1000000;
+param wubar_bkWh := 1 0;
+param wbar_bkWh := 1 1000000;
+param wbarbkWh := 1 1000000;
+param bubar_sigma :=
+PV1 0
+WIND 0
+GENERATOR 0
+UTIL 0
+;
+param fubar_td :=
+PV1 0
+PV1NM 0
+WIND 0
+WINDNM 0
+UTIL1 0
+;

@@ -1,0 +1,9 @@
+param deltabar_t :=
+1 10000000000.0
+;
+param deltabar_tu :=
+1 10000000000.0
+;
+param deltabar_mt :=
+1 10000000000.0
+;

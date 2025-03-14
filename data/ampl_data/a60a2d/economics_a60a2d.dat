@@ -1,0 +1,141 @@
+param f_l :=
+PV 0.94224   #different
+PVNM 0.94224
+CHP 1.0
+UTIL1 1.0
+BOILER 1.0
+;
+param f_li :=
+PV 1.0
+PVNM 1.0
+CHP 1.0
+UTIL1 1.0
+BOILER 1.0
+;
+param f_e := 12.35539;
+param f_om := 12.85583;
+param f_bf := 16.51443;
+param f_cf := 16.51443;
+param f_pf :=
+PV 12.35539
+PVNM 12.35539
+CHP 16.51443
+UTIL1 12.35539
+BOILER 16.51443
+;
+param ftp := 0;
+param f_pi :=
+PV 0.93458      #different
+PVNM 0.93458
+CHP 0.0
+UTIL1 0
+BOILER 0
+;
+param ir :=
+PV 1R 0
+PV 1W 0
+PV 1X 0
+PV 1S 0
+PV 2R 0
+PV T 0
+PVNM 1R 0
+PVNM 1W 0
+PVNM 1X 0
+PVNM 1S 0
+PVNM 2R 0
+PVNM T 0
+CHP 1R 0
+CHP 1W 0
+CHP 1X 0
+CHP 1S 0
+CHP 2R 0
+CHP T 0
+UTIL1 1R 0
+UTIL1 1W 0
+UTIL1 1X 0
+UTIL1 1S 0
+UTIL1 2R 0
+UTIL1 T 0
+BOILER 1R 0
+BOILER 1W 0
+BOILER 1X 0
+BOILER 1S 0
+BOILER 2R 0
+BOILER T 0
+;
+param ibar :=
+PV 1000000000.0   #different
+PVNM 1000000000.0
+CHP 0
+UTIL1 0
+BOILER 0
+;
+param ibar_sigma :=
+PV 1000000000.0   #different
+PVNM 1000000000.0
+CHP 0
+UTIL1 0
+BOILER 0
+;
+param c_cm :=
+PV 1 1286.9159
+PVNM 1 1286.9159
+CHP 1 2000.0
+UTIL1 1 0.0
+BOILER 1 0.0   #if =! 0, convert
+;
+param c_cx :=
+PV 0 0
+PV 1 10000000000.0
+PVNM 0 0
+PVNM 1 10000000000.0
+CHP 0 0
+CHP 1 10000000000.0
+UTIL1 0 0.0
+UTIL1 1 10000000000.0
+BOILER 0 0.0
+BOILER 1 10000000000.0
+;
+param c_cb :=
+PV 1 0.0
+PVNM 1 0.0
+CHP 1 0.0
+UTIL1 1 0.0
+BOILER 1 0.0    #if =! 0, COnvert
+;
+param f_tow := 0.0;
+param f_tot := 0.0;
+param c_kW :=
+1 0.0  #convert
+2 0.0
+3 1048.4232
+;
+param c_kWh :=
+1 20.679646408 #6060.6061  #converted /293.07107
+2 63.0252
+3 521.6699
+;
+#param c_tes :=
+#1 6060.6061
+#2 63.0252
+#;
+param c_om :=
+PV 16.0
+PVNM 16.0
+CHP 100
+UTIL1 0  
+BOILER 0    #convert if !=0
+;
+param c_omp :=
+PV 0
+PVNM 0
+CHP 0.004
+UTIL1 0
+BOILER 0   #convert if != 0
+;
+param c_omb := 
+1 0.0   #Convert if != 0
+2 0.0
+3 0.0
+;
+param fay := 25;

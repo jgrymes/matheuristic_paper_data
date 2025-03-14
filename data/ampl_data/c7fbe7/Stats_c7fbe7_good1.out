@@ -1,0 +1,26 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.10.0.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2019.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem './out/problem.sav' read.
+Read time = 0.69 sec. (17.16 ticks)
+CPLEX> Problem name         : ./out/problem.sav
+Objective sense      : Minimize
+Variables            :  403100  [Nneg: 315431,  Free: 35040,  Binary: 52629]
+Objective nonzeros   :   35089
+Linear constraints   :  446938  [Less: 227877,  Greater: 122691,  Equal: 96370]
+  Nonzeros           : 1524095
+  RHS nonzeros       :   96385
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 0.03909823       Max   : 2300.000       
+Linear constraints   :
+  Nonzeros           : Min   : 0.0008136725     Max   : 1441679.       
+  RHS nonzeros       : Min   : 0.8136725        Max   : 7752817.       
+CPLEX> 

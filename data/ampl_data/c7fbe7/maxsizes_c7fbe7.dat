@@ -1,0 +1,71 @@
+param bbarsigma :=
+PV1 1000000000.0
+PV1NM 1000000000.0
+CHP 1000.0
+UTIL1 12000000
+BOILER 29307107000 #1000000000.0 #Multiplied by 293.07107
+ELECCHL 1000000000.0
+ABSORPCHL 35168.5
+;
+param wubar_bkW := 
+1 0
+2 0
+3 0
+;
+param wbarbkW := 
+1 293071070 #1000000 
+2 1000000 #14350.0 #Jesse: changed from zero using wbar_bkWh
+3 1000000   #coma back to this
+;
+param wubar_bkWh := 
+1 0.0
+2 0.0
+3 0.0 
+;
+#param wbar_bkWh := 1000000;
+param wbarbkWh := 
+1 23886.2922     #81.5    #converted *293.07107
+2 14350.0
+3 1000000
+;
+#param wubart_bkWh :=
+#1 0.0
+#2 0.0
+#;
+#param wbart_bkWh :=
+#1 81.5
+#2 14350.0
+#;
+param bubar_sigma :=
+PV1 0
+WIND 0
+GENERATOR 0
+CHP 100.0
+UTIL 0
+BOILER 0
+ELECCHL 0
+ABSORPCHL 0
+;
+param fubar_td :=
+PV1 0
+PV1NM 0
+CHP 0.3
+UTIL1 0
+BOILER 0
+ELECCHL 0
+ABSORPCHL 0
+;
+param lbarsigma :=
+1 1000000000.0
+2 1000000000.0
+3 1000000000.0
+;
+param lubarsigma :=
+PV1 0
+PV1NM 0
+CHP 30
+UTIL1 0
+BOILER 0
+ELECCHL 0
+ABSORPCHL 0
+;
